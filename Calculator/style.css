@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 85vh;
+    flex-direction: column;
+    width: 60%;
+    min-width: 500px;
+    background-color: gray;
+}
+
+.result {
+    flex-basis: 15vh;
+    background-color: black;
+}
+
+.panel div:nth-child(n+2) {
+    flex-basis: 100px;
+    flex-grow: 3;
+    width: 20%;
+    background-color: aquamarine;
+    border: 2px solid red;
+}
