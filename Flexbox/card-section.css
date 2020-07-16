@@ -1,0 +1,51 @@
+.card-section {
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 500px;
+  }
+  
+  .card {
+    width: 100px;
+    height: 130px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    
+    color: rgba(90, 92, 107, 0.85);
+    text-align: center;
+    font-size: 10px;
+    overflow: hidden;
+    
+    background-color: #ffffff;
+  
+  }
+  
+  .plate {
+    height: 70px;
+    font-size: 36px;
+    color: #ffffff;
+  }
+  
+  .card-1 .plate {
+    background: #997fbc;
+  }
+  
+  .card-2 .plate {
+    background: #92ded2;
+  }
+  
+  .card-3 .plate {
+    background: #fdc28a;
+  }
+  
+  .card-4 .plate {
+    background: #ee8ebc;
+  }
+  
+  .card-5 .plate {
+    background: #babc7f;
+  }
+  
+  .card-6 .plate {
+    background: #7f7fbc;
+  }
